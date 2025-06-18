@@ -38,6 +38,12 @@ img {
 
 .ratings {
   display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
 
-  justify-content: space-between;
+img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
 }
