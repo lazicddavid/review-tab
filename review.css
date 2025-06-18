@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -11,6 +19,8 @@
   border-radius: 20px;
   width: 650px;
   height: 400px;
+  padding: 40px 30px;
+  text-align: center;
 }
 
 .main-title {
