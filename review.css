@@ -6,6 +6,11 @@
   height: 180px;
 }
 
-h1 {
+.main-title {
   color: brown;
+}
+
+.ratings {
+  display: flex;
+  gap: 25px;
 }
