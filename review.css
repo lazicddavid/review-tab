@@ -1,12 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 180px;
+
+  border: 1px solid black;
+  width: 650px;
+  height: 400px;
 }
 
 .main-title {
+  he;
   color: brown;
 }
 
