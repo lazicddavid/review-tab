@@ -47,3 +47,23 @@ img {
   height: 80px;
   margin-bottom: 10px;
 }
+
+span {
+  font-weight: bold;
+  color: green;
+}
+
+.btn {
+  padding: 10px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: darkslategray;
+}
