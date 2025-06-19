@@ -19,6 +19,7 @@ button.addEventListener("click", function () {
   }
 
   const feedbackText = selected.textContent;
+  let message = "";
 
   container.innerHTML = `
     <h2>Thank you!</h2>
