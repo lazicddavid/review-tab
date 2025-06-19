@@ -49,6 +49,11 @@ img {
   margin-bottom: 10px;
 }
 */
+.active {
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
 
 .ratings div {
   display: flex;
