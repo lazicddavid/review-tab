@@ -1,1 +1,9 @@
-const icons = document.querySelectorAll(icon1, icon2, icon3);
+const icons = document.querySelectorAll(".ratings");
+
+icons.forEach((icon) => {
+  icon.addEventListener("click", function () {
+    icons.forEach((el) => el.classList.remove("active"));
+
+    icon.classList.add("active");
+  });
+});

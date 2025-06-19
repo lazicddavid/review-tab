@@ -50,9 +50,7 @@ img {
 }
 */
 
-.icon1,
-.icon2,
-.icon3 {
+.ratings div {
   display: flex;
   flex-direction: column;
   align-items: center;
