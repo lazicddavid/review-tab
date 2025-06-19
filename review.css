@@ -78,21 +78,17 @@ span {
 }
 
 .message-box {
-  
   background-color: white;
   padding: 40px;
   border-radius: 10px;
-  
+
   font-size: 1.2rem;
   color: darkgreen;
 }
 
-.message-box, h2, h3 {
+.message-box,
+h2,
+h3 {
   margin: 20px 0;
   font-family: monospace;
-}
-
-/*
-.result-box p {
-  margin-bottom: 15px;
 }
