@@ -31,7 +31,7 @@ button.addEventListener("click", function () {
 
   container.innerHTML = `
     <h2>Thank you!</h2>
-    <h3>Feedback: Unhappy </h3>
+    <h3>Feedback:Unhappy</h3>
     <p>We'll use your feedback to improve our customer support.</p>
   `;
 });
