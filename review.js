@@ -14,7 +14,7 @@ button.addEventListener("click", function () {
   const selected = document.querySelector(".ratings .active span");
 
   if (!selected) {
-    alert("Please select an option before submitting.");
+    alert("Please select option before submitting.");
     return;
   }
 
@@ -30,8 +30,11 @@ button.addEventListener("click", function () {
   }
 
   container.innerHTML = `
-    <h2>Thank you!</h2>
-    <h3>Feedback: ${feedbackText}</h3>
+  <div class="message-box">
+    <h2><strong>Thank you!</strong></h2>
+   <h3><strong>Feedback: ${feedbackText}</strong></h3>
+
     <p>We'll use your feedback to improve our customer support.</p>
+    </div>
   `;
 });
